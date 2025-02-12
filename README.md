@@ -65,20 +65,42 @@ for profe in profesores:
 [Habilitats](#-habilitats) | [Experiència](#-experiència) | [Contacte](#-contacte)
 
 ## GeoJSON - Barcelona
-```json
+´´´geojson
 {
   "type": "FeatureCollection",
   "features": [
     {
       "type": "Feature",
+      "properties": {},
       "geometry": {
-        "type": "Point",
-        "coordinates": [2.1734, 41.3851]
-      },
-      "properties": {
-        "name": "Barcelona"
+        "coordinates": [
+          [
+            [
+              54.83708582234266,
+              53.83702807857367
+            ],
+            [
+              54.83708582234266,
+              53.832363652642954
+            ],
+            [
+              54.846143819915426,
+              53.832363652642954
+            ],
+            [
+              54.846143819915426,
+              53.83702807857367
+            ],
+            [
+              54.83708582234266,
+              53.83702807857367
+            ]
+          ]
+        ],
+        "type": "Polygon"
       }
     }
   ]
 }
+
 ```
